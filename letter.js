@@ -35,3 +35,4 @@ module.exports = Letter;
 
 // var letterQ = new Letter(q);
 // letterQ.guessChecker(cmdIn);
+// letterQ.returnChar();
