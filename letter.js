@@ -2,6 +2,8 @@
 function Letter(char) {
     // The letter defined by the word
     this.char = char;
+    // Store an underscore
+    this.underscore = "_";
     // Weather the user guessed the letter correctly or not
     this.guessed = false;
     // Based on if the letter was guessed correctly, return either the char or _ to Word
@@ -11,7 +13,7 @@ function Letter(char) {
             return this.char;
             // console.log(this.char + " and " + userGuess + " matched");
         }else{
-            return "_";
+            return this.underscore;
             // console.log("_");
         }
     }
